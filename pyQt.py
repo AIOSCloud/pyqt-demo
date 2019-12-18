@@ -310,7 +310,7 @@ class MainUi(QtWidgets.QMainWindow):
             }
         ''')
 
-        self.setWindowOpacity(0.9)  # 设置窗口透明度
+        self.setWindowOpacity(0.6)  # 设置窗口透明度
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground)  # 设置窗口背景透明
 
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)  # 隐藏边框
